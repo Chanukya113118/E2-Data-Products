@@ -1,7 +1,15 @@
 import plotly.express as plt
 import streamlit as st
 import pandas as pd
-st.set_page_config(page_title='Data-Visualization',page_icon='Images/brand.png')
+from PIL import Image
+image_directory = "/Images.png"
+image = Image.open(image_directory)
+
+PAGE_CONFIG = {"page_title":"Data Visualization", 
+               "page_icon":image, 
+ }
+
+st.set_page_config(**PAGE_CONFIG)
 data=pd.DataFrame()
 def visualization(data):
         col1,col2=st.columns(2)
