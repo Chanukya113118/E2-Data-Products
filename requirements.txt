@@ -1,0 +1,4 @@
+pandas 
+pandas_profiling
+streamlit==1.0.0
+streamlit_pandas_profiling
