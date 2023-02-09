@@ -12,6 +12,7 @@ def analyse_fun(data):
         if col1.button('Correlation Values'):
             st.write(data.corr())
         st.button("Press")
+st.title('Data Analysis')
 def m():
     try:
         file=st.file_uploader('Choose the file')
