@@ -1,4 +1,3 @@
 pandas 
 streamlit==1.0.0
 plotly
-PIL==1.1.7
